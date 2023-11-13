@@ -61,7 +61,7 @@ include "./view/header.php";
                                                 </div>   
 
                                                 <div class="blog_entry_content">
-                                                      <p>Giáng Sinh của anh chị em Coolmate 2 miền đã diễn ra với rất nhiều hoạt động và chương trình thú vị. Cùng chúng mình nhìn lại nhé!
+                                                      <p>Giáng Sinh của anh chị em Gomens 2 miền đã diễn ra với rất nhiều hoạt động và chương trình thú vị. Cùng chúng mình nhìn lại nhé!
                                                       </p>
                                                       <p>
                                                          01. Điều ước Giáng Sinh
