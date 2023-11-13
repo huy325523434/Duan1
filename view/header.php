@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Coron - Fashion eCommerce Bootstrap4 Template</title>
+        <title>Admin</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Favicon -->
@@ -19,8 +19,7 @@
         
     </head>
     <body>
-            <!-- Add your site or application content here -->
-            
+            <!-- Add your site or application content here --> 
             <!--pos page start-->
             <div class="pos_page">
                 <div class="container">
