@@ -4,7 +4,7 @@
                                 <div class="col-12">
                                     <div class="banner_slider slider_two">
                                         <div class="slider_active owl-carousel">
-                                            <div class="single_slider" style="background-image: url(assets/img/slider/slider_2.png)">
+                                            <div class="single_slider" style="background-image: url(assets/img/slider/1.png)">
                                                 <div class="slider_content">
                                                     <div class="slider_content_inner">  
                                                         <h1>Chào mừng đến với GOMENS</h1>
@@ -14,7 +14,7 @@
                                                     </div>     
                                                 </div>
                                             </div>
-                                            <div class="single_slider" style="background-image: url(assets/img/slider/slide_4.png)">
+                                            <div class="single_slider" style="background-image: url(assets/img/slider/2.png)">
                                                  <div class="slider_content">
                                                     <div class="slider_content_inner">  
                                                         <h1>Chào mừng đến với GOMENS</h1>
@@ -24,7 +24,7 @@
                                                     </div>     
                                                 </div> 
                                             </div>
-                                            <div class="single_slider" style="background-image: url(assets/img/slider/slider_3.png)">
+                                            <div class="single_slider" style="background-image: url(assets/img/slider/3.png)">
                                                  <div class="slider_content">
                                                     <div class="slider_content_inner">  
                                                         <h1>Chào mừng đến với GOMENS</h1>
@@ -43,7 +43,7 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="block_title">
-                                        <h3>  New Products</h3>
+                                        <h3>  Sản phẩm mới</h3>
                                     </div>
                                     </div> 
                                 </div>
@@ -59,7 +59,7 @@
                                                 </div>
                                                 <div class="product_content">
                                                     <span class="product_price">$50.00</span>
-                                                    <h3 class="product_title"><a href="single-product.html">Curabitur sodales</a></h3>
+                                                    <h3 class="product_title"><a href="single-product.html">Áo khoác thể thao Pro Active</a></h3>
                                                 </div>
                                                 <div class="product_info">
                                                     <ul>
