@@ -10,11 +10,11 @@
         <link rel="shortcut icon" type="image/x-icon" href="assets\img\favicon.png">
 		
 		<!-- all css here -->
-       <link rel="stylesheet" href="../assets\css\bootstrap.min.css">
-        <link rel="stylesheet" href="../assets\css\plugin.css">
-        <link rel="stylesheet" href="../assets\css\bundle.css">
-        <link rel="stylesheet" href="../assets\css\style.css">
-        <link rel="stylesheet" href="../assets\css\responsive.css">
+       <link rel="stylesheet" href="assets\css\bootstrap.min.css">
+        <link rel="stylesheet" href="assets\css\plugin.css">
+        <link rel="stylesheet" href="assets\css\bundle.css">
+        <link rel="stylesheet" href="assets\css\style.css">
+        <link rel="stylesheet" href="assets\css\responsive.css">
         <script src="assets\js\vendor\modernizr-2.8.3.min.js"></script>
         
     </head>
@@ -120,7 +120,7 @@
                                                                 </div>
                                                             </li>
                                                             <li><a href="#">Giới thiệu</a></li>
-                                                            <li><a href="blog.html">Blog</a> </li>
+                                                            <li><a href="">Blog</a> </li>
                                                             <li><a href="#">Liên hệ</a></li>
 
                                                         </ul>
