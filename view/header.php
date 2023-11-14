@@ -120,7 +120,7 @@
                                                                 </div>
                                                             </li>
                                                             <li><a href="#">Giới thiệu</a></li>
-                                                            <li><a href="blog.html">Blog</a> </li>
+                                                            <li><a href="">Blog</a> </li>
                                                             <li><a href="#">Liên hệ</a></li>
 
                                                         </ul>
