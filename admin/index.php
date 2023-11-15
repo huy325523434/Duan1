@@ -21,7 +21,30 @@
                 $listsanpham = loadall_sanpham($keyw, $iddm);
                 include "sanpham/list.php";
                 break;
-            }
+
+            case "addsp":
+                
+
+            // CRUD danhmuc
+            case "listdm":
+                $listdanhmuc = loadall_danhmuc();
+                include "danhmuc/list.php";
+                break;
+
+            case "adddm":
+                if(isset($_POST["themmoi"]) && ($_POST["themmoi"])){
+                    $tenloai = $_POST["tenloai"];
+                    insert_danhmuc($tenloai);
+                    $thongbao = "Thêm thành công";
+                }
+                include "danhmuc/add.php";
+                break;
+            };
+
+
+            
+
+
     }else{
         include "home.php";
     }
