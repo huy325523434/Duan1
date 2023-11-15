@@ -2,12 +2,14 @@
 
 // Hàm kết nối đến CSDL sử dụng PDO
 function pdo_get_connection(){
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
+    $servername = "sql307.infinityfree.com";
+    $username = "if0_35079665";
+    $password = "rt0I2KnS2t5Nb6";
+
     try {
-        $conn = new PDO("mysql:host=$servername;dbname=duanmau2023", $username, $password);
+        $conn = new PDO("mysql:host=$servername;dbname=if0_35079665_duan1_2023", $username, $password);
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        echo "Hello";
         return $conn;
     } catch(PDOException $e) {
         echo "Connection failed: " . $e->getMessage();
