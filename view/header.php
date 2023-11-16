@@ -34,7 +34,7 @@
                                        <!--logo start-->
                                         <div class="col-lg-3 col-md-3">
                                             <div class="logo">
-                                                <a href="index.html"><img src="assets\img\logo\logo.png" alt="" width="90px" height="70px"></a>
+                                                <a href="index.php"><img src="assets/img/logo/logo.png" alt=""></a>
                                             </div>
                                         </div>
                                         <!--logo end-->
@@ -122,6 +122,7 @@
                                                             <li><a href="#">Giới thiệu</a></li>
                                                             <li><a href="">Blog</a> </li>
                                                             <li><a href="#">Liên hệ</a></li>
+                                                            <li><a href="">Đăng nhập</a></li>
 
                                                         </ul>
                                                     </nav>

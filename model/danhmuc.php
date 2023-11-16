@@ -1,12 +1,13 @@
 <?php 
-    function loadall_danhmuc(){
-        $sql = "SELECT * FROM danhmuc ORDER BY id DESC";
-        $listdanhmuc=pdo_query($sql);
-        return  $listdanhmuc;
+   
+function load_ten_dm($iddm){
+    if($iddm > 0){
+        $sql = "SELECT * FROM danhmuc WHERE id = $iddm";
+        $dm = pdo_query_one($sql);
+        extract($dm);
+        return $name;
+    }else{
+        return "";
     }
-
-    function insert_danhmuc($tenloai){
-        $sql = "INSERT INTO danhmuc(name) VALUES ('$tenloai')";
-        pdo_execute($sql);
-    }
+}
 ?>

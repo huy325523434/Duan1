@@ -64,7 +64,7 @@
                                         <li><a href="#">  Customer Service  </a></li>
                                         <li><a href="#">  Privacy Policy  </a></li>
                                     </ul>
-                                    <p>Copyright &copy; 2018 <a href="#">Pos Coron</a>. All rights reserved. </p>
+                                    <p>Copyright &copy; 2023 <a href="#">Gomens</a>. All rights reserved. </p>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">

@@ -1,5 +1,5 @@
 <?php 
-   function loadall_sanpham($keyw="", $iddm=0){
+  function loadall_sanpham($keyw="", $iddm=0){
     $sql = "SELECT * FROM sanpham WHERE trangthai = 0 ";
     // where 1 tức là nó đúng
     if($keyw!=""){
