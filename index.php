@@ -27,6 +27,9 @@
                 $tendm= load_ten_dm($id_dm);
                 include "view/sanpham.php";
                 break;
+
+
+            // Chi tiết sản phẩm
             case "sanphamct":
                 if(isset($_GET['id_sp']) && $_GET['id_sp'] > 0){
                     $sanpham = loadone_sanpham($_GET['id_sp']);
@@ -49,6 +52,10 @@
             case "blog3":
                 include "view/blog/blog3.php";
                 break;
+
+       
+         
+
         }
     }else{
         include "view/home.php";

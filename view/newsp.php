@@ -16,17 +16,15 @@
                                 $hinh = $img_path . $img;
                                 $link = "index.php?act=sanphamct&id_sp=$id_sp";
                                 $link_mua = "index.php?act=muangay&id_sp=$id_sp";
-                                // if (($i == 1)) {
-                                //     $mr = "";
-                                // } else {
-                                //     $mr = "mr";
-                                // }
                                     echo '<div class="col-lg-3">
                                     <div class="single_product">
                                         <div class="product_thumb">
                                             <a href="'.$link.'"><img src="'.$hinh.'" alt=""></a>
                                             <div class="img_icone">
                                                 <img src="assets\img\cart\span-new.png" alt="">
+                                            </div>
+                                            <div class="product_action">
+                                                <a href="'.$link_mua.'"> <i class="fa fa-shopping-cart"></i> Add to cart</a>
                                             </div>
                                         </div>
                                         <div class="product_content">
@@ -36,8 +34,8 @@
                                         </div>
                                         <div class="product_info">
                                             <ul>
-                                                <li><a href="#" title=" Add to Wishlist ">Thêm giỏ hàng</a></li>
-                                                <li><a href="'.$link_mua.'" data-toggle="modal" data-target="#modal_box" title="Quick view">Mua ngay</a></li>
+                                                <li><a href="#" title=" Add to Wishlist ">Thêm vào giỏ hàng</a></li>
+                                                <li><a href="'.$link.'" data-toggle="modal" data-target="#modal_box" title="Quick view">Mua ngay</a></li>
                                             </ul>
                                         </div>
                                     </div>

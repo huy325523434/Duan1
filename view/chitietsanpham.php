@@ -1,141 +1,23 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Coron - Fashion eCommerce Bootstrap4 Template</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="assets\img\favicon.png">
-		
-		<!-- all css here -->
-       <link rel="stylesheet" href="../assets\css\bootstrap.min.css">
-        <link rel="stylesheet" href="../assets\css\plugin.css">
-        <link rel="stylesheet" href="../assets\css\bundle.css">
-        <link rel="stylesheet" href="../assets\css\style.css">
-        <link rel="stylesheet" href="../assets\css\responsive.css">
-        <script src="../assets\js\vendor\modernizr-2.8.3.min.js"></script>
-        
-    </head>
-    <body>
-            <!-- Add your site or application content here -->
-            
-            <!--pos page start-->
-            <div class="pos_page">
-                <div class="container">
-                   <!--pos page inner-->
-                    <div class="pos_page_inner">  
-                       <!--header area -->
-                        <div class="header_area"> 
-                                <!--header top end-->
-                                <!--header middel--> 
-                                <div class="header_middel">
-                                    <div class="row align-items-center">
-                                       <!--logo start-->
-                                        <div class="col-lg-3 col-md-3">
-                                            <div class="logo">
-                                                <a href="index.html"><img src="assets\img\logo\logo.png" alt="" width="90px" height="70px"></a>
-                                            </div>
-                                        </div>
-                                        <!--logo end-->
-                                        <div class="col-lg-9 col-md-9">
-                                            <div class="header_right_info">
-                                                <div class="search_bar">
-                                                    <form action="#">
-                                                        <input placeholder="Search..." type="text">
-                                                        <button type="submit"><i class="fa fa-search"></i></button>
-                                                    </form>
-                                                </div>
-                                                <div class="shopping_cart">
-                                                    <a href="#"><i class="fa fa-shopping-cart"></i> Giỏ hàng <i class="fa fa-angle-down"></i></a>
-                                                    <!--mini cart-->
-                                                    <div class="mini_cart">
-                                                        <div class="cart_item">
-                                                           <div class="cart_img">
-                                                               <a href="#"><img src="assets\img\cart\cart.jpg" alt=""></a>
-                                                           </div>
-                                                           
-                                                           <div class="cart_info">
-                                                                <a href="#">lorem ipsum dolor</a>
-                                                                <span class="cart_price">$115.00</span>
-                                                                <span class="quantity">Qty: 1</span>
-                                                            </div>
-                                                            <div class="cart_remove">
-                                                                <a title="Remove this item" href="#"><i class="fa fa-times-circle"></i></a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="cart_item">
-                                                           <div class="cart_img">
-                                                               <a href="#"><img src="assets\img\cart\cart2.jpg" alt=""></a>
-                                                           </div>
-                                                            <div class="cart_info">
-                                                                <a href="#">Quisque ornare dui</a>
-                                                                <span class="cart_price">$105.00</span>
-                                                                <span class="quantity">Qty: 1</span>
-                                                            </div>
-                                                            <div class="cart_remove">
-                                                                <a title="Remove this item" href="#"><i class="fa fa-times-circle"></i></a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="shipping_price">
-                                                            <span> Shipping </span>
-                                                            <span>  $7.00  </span>
-                                                        </div>
-                                                        <div class="total_price">
-                                                            <span> total </span>
-                                                            <span class="prices">  $227.00  </span>
-                                                        </div>
-                                                        <div class="cart_button">
-                                                            <a href="checkout.html"> Check out</a>
-                                                        </div>
-                                                    </div>
-                                                    <!--mini cart end-->
-                                                </div>
+             <!--breadcrumbs area start-->
+             <div class="breadcrumbs_area">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="breadcrumb_content">
+                                        <ul>
+                                            <li><a href="index.html">Trang chủ</a></li>
+                                            <li><i class="fa fa-angle-right"></i></li>
+                                            <li>Sản phẩm</li>
+                                        </ul>
 
-                                            </div>
-                                        </div>
                                     </div>
-                                </div>     
-                                <!--header middel end-->      
-
-
-                            <div class="header_bottom">
-                                <div class="row">
-                                        <div class="col-12">
-                                            <div class="main_menu_inner">
-                                                <div class="main_menu d-none d-lg-block">
-                                                    <nav>
-                                                        <ul>
-                                                            <li class="active"><a href="index.html">Home</a></li>
-                                                            <li><a href="shop.html">Sản phẩm </a></li>
-                                                            <li><a href="#">Danh mục </a>
-                                                                <div class="mega_menu">
-                                                                    <div class="mega_top fix">
-                                                                        <div class="mega_items">
-                                                                            <h5><a href="#">Áo thể thao</a></h5>
-                                                                            <h5><a href="#">Áo thể thao</a></h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    
-                                                                </div>
-                                                            </li>
-                                                            <li><a href="#">Giới thiệu</a></li>
-                                                            <li><a href="blog.html">Blog</a> </li>
-                                                            <li><a href="#">Liên hệ</a></li>
-
-                                                        </ul>
-                                                    </nav>
-                                                </div>  
-                                            </div>
-                                        </div>
-                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <!--header end -->
+                        <!--breadcrumbs area end-->
 
-<div class="product_details">
 
+                         <!--product wrapper start-->
+                        <div class="product_details">
                             <div class="row">
                                     <div class="col-lg-5 col-md-6">
                                         <div class="product_tab fix"> 
@@ -369,36 +251,53 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="block_title">
-                                    <h3>  11 other products category:</h3>
+                                    <h3>  Sản phẩm cùng loại</h3>
                                 </div>
                                 </div> 
                             </div>
                             <div class="row">
                                 <div class="single_p_active owl-carousel">
-                                    <div class="col-lg-3">
-                                        <div class="single_product">
-                                            <div class="product_thumb">
-                                               <a href="single-product.html"><img src="assets\img\product\product1.jpg" alt=""></a> 
-                                               <div class="img_icone">
-                                                   <img src="assets\img\cart\span-new.png" alt="">
-                                               </div>
-                                               <div class="product_action">
-                                                   <a href="#"> <i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                               </div>
+                                    <?php 
+                                        foreach ($sanphamcl as $value) {
+
+                                            $i = 0;
+                                            foreach ($spnew as $sp){
+                                                extract($sp);
+                                                $hinh = $img_path . $img;
+                                                $link = "index.php?act=sanphamct&id_sp=$id_sp";
+                                                $link_mua = "index.php?act=muangay&id_sp=$id_sp";
+                                                echo '<div class="col-lg-3">
+                                            <div class="single_product">
+                                                <div class="product_thumb">
+                                                   <a href="'.$link.'"><img src="'.$hinh.'" alt=""></a> 
+                                                   <div class="img_icone">
+                                                       <img src="assets\img\cart\span-new.png" alt="">
+                                                   </div>
+                                                   <div class="product_action">
+                                                       <a href="'.$link_mua.'"> <i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                                   </div>
+                                                </div>
+                                                <div class="product_content">
+                                                    <span class="product_original_price">$'.$original_price.'</span>
+                                                    <span class="product_price">$ '.$price.' </span>
+                                                    <h3 class="product_title"><a href="index.php?act=sanphamct&id_sp='.$value['id_sp'].' ">'.$value["name"].'</a></h3>
+                                                </div>
+                                                <div class="product_info">
+                                                    <ul>
+                                                        <li><a href="#" title=" Add to Wishlist ">Thêm vào giỏ hàng</a></li>
+                                                        <li><a href="'.$link.'" data-toggle="modal" data-target="#modal_box" title="Quick view">Xem chi tiết</a></li>
+                                                    </ul>
+                                                </div>
                                             </div>
-                                            <div class="product_content">
-                                                <span class="product_price">$50.00</span>
-                                                <h3 class="product_title"><a href="single-product.html">Curabitur sodales</a></h3>
-                                            </div>
-                                            <div class="product_info">
-                                                <ul>
-                                                    <li><a href="#" title=" Add to Wishlist ">Add to Wishlist</a></li>
-                                                    <li><a href="#" data-toggle="modal" data-target="#modal_box" title="Quick view">View Detail</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
+                                        </div>';
+                                            }
+                                            
+                                        }
+                                        ?>
+                                
+                                    
+
+                                    <!-- <div class="col-lg-3">
                                         <div class="single_product">
                                             <div class="product_thumb">
                                                <a href="single-product.html"><img src="assets\img\product\product2.jpg" alt=""></a> 
@@ -489,7 +388,7 @@
                                                 </ul>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div> 
                             </div>      
                         </div> 
@@ -501,36 +400,46 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="block_title">
-                                    <h3>    Related Products</h3>
+                                    <h3> Danh mục sản phẩm</h3>
                                 </div>
                                 </div> 
                             </div>
                             <div class="row">
                                 <div class="single_p_active owl-carousel">
-                                    <div class="col-lg-3">
-                                        <div class="single_product">
-                                            <div class="product_thumb">
-                                               <a href="single-product.html"><img src="assets\img\product\product6.jpg" alt=""></a> 
-                                               <div class="img_icone">
-                                                   <img src="assets\img\cart\span-new.png" alt="">
-                                               </div>
-                                               <div class="product_action">
-                                                   <a href="#"> <i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                               </div>
+                                    <?php 
+                                        foreach ($dsdm as $dm) {
+                                            extract($dm);
+                                            $hinh = $img_path . $img;
+                                            $linkdm = "index.php?act=sanpham&id_dm=" . $id_dm;
+                                            $link = "index.php?act=sanphamct&id_sp=$id_sp";
+                                            $link_mua = "index.php?act=muangay&id_sp=$id_sp";
+                                            echo '<div class="col-lg-3">
+                                            <div class="single_product">
+                                                <div class="product_thumb">
+                                                   <a href="'.$linkdm.'"><img src="'.$hinh.'" alt=""></a> 
+                                                   <div class="product_action">
+                                                       <a href="'.$link_mua.'"> <i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                                   </div>
+                                                </div>
+                                                <div class="product_content">
+                                                    <span class="product_price">$50.00</span>
+                                                    <h3 class="product_title"><a href="'.$linkdm.'">'.$name.'</a></h3>
+                                                </div>
+                                                <div class="product_info">
+                                                    <ul>
+                                                        <li><a href="#" title=" Add to Wishlist ">Thêm vào giỏ hàng</a></li>
+                                                        <li><a href="#" data-toggle="modal" data-target="#modal_box" title="Quick view">Xem chi tiết</a></li>
+                                                    </ul>
+                                                </div>
                                             </div>
-                                            <div class="product_content">
-                                                <span class="product_price">$50.00</span>
-                                                <h3 class="product_title"><a href="single-product.html">Curabitur sodales</a></h3>
-                                            </div>
-                                            <div class="product_info">
-                                                <ul>
-                                                    <li><a href="#" title=" Add to Wishlist ">Add to Wishlist</a></li>
-                                                    <li><a href="#" data-toggle="modal" data-target="#modal_box" title="Quick view">View Detail</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
+                                        </div>';
+                                        }
+                                    ?>
+
+                                    
+
+
+                                    <!-- <div class="col-lg-3">
                                         <div class="single_product">
                                             <div class="product_thumb">
                                                <a href="single-product.html"><img src="assets\img\product\product5.jpg" alt=""></a> 
@@ -621,7 +530,7 @@
                                                 </ul>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div> 
                             </div>      
                         </div> 
@@ -632,199 +541,3 @@
                 </div>
             </div>
             <!--pos page end-->
-            
-            <!--footer area start-->
-            <div class="footer_area">
-                <div class="footer_top">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="footer_widget">
-                                    <h3>About us</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <div class="footer_widget_contect">
-                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i>  19 Interpro Road Madison, AL 35758, USA</p>
-
-                                        <p><i class="fa fa-mobile" aria-hidden="true"></i> (012) 234 432 3568</p>
-                                        <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact@plazathemes.com </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="footer_widget">
-                                    <h3>My Account</h3>
-                                    <ul>
-                                        <li><a href="#">Your Account</a></li>
-                                        <li><a href="#">My orders</a></li>
-                                        <li><a href="#">My credit slips</a></li>
-                                        <li><a href="#">My addresses</a></li>
-                                        <li><a href="#">Login</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="footer_widget">
-                                    <h3>Informations</h3>
-                                    <ul>
-                                        <li><a href="#">Specials</a></li>
-                                        <li><a href="#">Our store(s)!</a></li>
-                                        <li><a href="#">My credit slips</a></li>
-                                        <li><a href="#">Terms and conditions</a></li>
-                                        <li><a href="#">About us</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="footer_widget">
-                                    <h3>extras</h3>
-                                    <ul>
-                                        <li><a href="#"> Brands</a></li>
-                                        <li><a href="#"> Gift Vouchers </a></li>
-                                        <li><a href="#"> Affiliates </a></li>
-                                        <li><a href="#"> Specials </a></li>
-                                        <li><a href="#"> Privacy policy </a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer_bottom">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-lg-6 col-md-6">
-                                <div class="copyright_area">
-                                    <ul>
-                                        <li><a href="#"> about us </a></li>
-                                        <li><a href="#">  Customer Service  </a></li>
-                                        <li><a href="#">  Privacy Policy  </a></li>
-                                    </ul>
-                                    <p>Copyright &copy; 2018 <a href="#">Pos Coron</a>. All rights reserved. </p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="footer_social text-right">
-                                    <ul>
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                        <li><a class="pinterest" href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-                                        
-                                        <li><a href="#"><i class="fa fa-wifi" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--footer area end-->
-            
-            
-             <!-- modal area start --> 
-           <div class="modal fade" id="modal_box" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                        <div class="modal_body">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-5 col-md-5 col-sm-12">
-                                        <div class="modal_tab">  
-                                            <div class="tab-content" id="pills-tabContent">
-                                                <div class="tab-pane fade show active" id="tab1" role="tabpanel">
-                                                    <div class="modal_tab_img">
-                                                        <a href="#"><img src="assets\img\product\product13.jpg" alt=""></a>    
-                                                    </div>
-                                                </div>
-                                                <div class="tab-pane fade" id="tab2" role="tabpanel">
-                                                    <div class="modal_tab_img">
-                                                        <a href="#"><img src="assets\img\product\product14.jpg" alt=""></a>    
-                                                    </div>
-                                                </div>
-                                                <div class="tab-pane fade" id="tab3" role="tabpanel">
-                                                    <div class="modal_tab_img">
-                                                        <a href="#"><img src="assets\img\product\product15.jpg" alt=""></a>    
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="modal_tab_button">    
-                                                <ul class="nav product_navactive" role="tablist">
-                                                    <li>
-                                                        <a class="nav-link active" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="false"><img src="assets\img\cart\cart17.jpg" alt=""></a>
-                                                    </li>
-                                                    <li>
-                                                         <a class="nav-link" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false"><img src="assets\img\cart\cart18.jpg" alt=""></a>
-                                                    </li>
-                                                    <li>
-                                                       <a class="nav-link button_three" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false"><img src="assets\img\cart\cart19.jpg" alt=""></a>
-                                                    </li>
-                                                </ul>
-                                            </div>    
-                                        </div>  
-                                    </div> 
-                                    <div class="col-lg-7 col-md-7 col-sm-12">
-                                        <div class="modal_right">
-                                            <div class="modal_title mb-10">
-                                                <h2>Handbag feugiat</h2> 
-                                            </div>
-                                            <div class="modal_price mb-10">
-                                                <span class="new_price">$64.99</span>    
-                                                <span class="old_price">$78.99</span>    
-                                            </div>
-                                            <div class="modal_content mb-10">
-                                                <p>Short-sleeved blouse with feminine draped sleeve detail.</p>    
-                                            </div>
-                                            <div class="modal_size mb-15">
-                                               <h2>size</h2>
-                                                <ul>
-                                                    <li><a href="#">s</a></li>
-                                                    <li><a href="#">m</a></li>
-                                                    <li><a href="#">l</a></li>
-                                                    <li><a href="#">xl</a></li>
-                                                    <li><a href="#">xxl</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="modal_add_to_cart mb-15">
-                                                <form action="#">
-                                                    <input min="0" max="100" step="2" value="1" type="number">
-                                                    <button type="submit">add to cart</button>
-                                                </form>
-                                            </div>   
-                                            <div class="modal_description mb-15">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>    
-                                            </div> 
-                                            <div class="modal_social">
-                                                <h2>Share this product</h2>
-                                                <ul>
-                                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                                </ul>    
-                                            </div>      
-                                        </div>    
-                                    </div>    
-                                </div>     
-                            </div>
-                        </div>    
-                    </div>
-                </div>
-            </div> 
-            
-          <!-- modal area end --> 
-            
-      
-		
-	<!-- all js here -->
-        <script src="../assets\js\vendor\jquery-1.12.0.min.js"></script>
-        <script src="../assets\js\popper.js"></script>
-        <script src="../assets\js\bootstrap.min.js"></script>
-        <script src="../assets\js\ajax-mail.js"></script>
-        <script src="../assets\js\plugins.js"></script>
-        <script src="../assets\js\main.js"></script>
-    </body>
-</html>
