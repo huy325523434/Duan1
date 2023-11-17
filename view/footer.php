@@ -8,7 +8,7 @@
                                     <h3>Về chúng tôi</h3>
                                     <p>Gomen không chỉ là nơi để mua sắm, mà là nơi để tìm kiếm cảm hứng. </p>
                                     <div class="footer_widget_contect">
-                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> Toàn nhà FPT, Trịnh Văn Bô , Nam Từ Liêm ,Hà Nội </p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> Toà nhà FPT, Trịnh Văn Bô , Nam Từ Liêm ,Hà Nội </p>
 
                                         <p><i class="fa fa-mobile" aria-hidden="true"></i> 0975572471</p>
                                         <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> Gomensshop.com </a>
