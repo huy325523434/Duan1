@@ -4,35 +4,9 @@
                                 <div class="col-12">
                                     <div class="banner_slider slider_two">
                                         <div class="slider_active owl-carousel">
-                                            <div class="single_slider" style="background-image: url(assets/img/slider/1.png)">
-                                                <div class="slider_content">
-                                                    <div class="slider_content_inner">  
-                                                        <h1>Chào mừng đến với GOMENS</h1>
-                                                        <p>Gomen - nơi mà phong cách và thoải mái hòa quyện,<br>
-                                                        nơi bản thân trở thành một tuyên ngôn thời trang thể thao độc đáo."</p>
-                                                       
-                                                    </div>     
-                                                </div>
-                                            </div>
-                                            <div class="single_slider" style="background-image: url(assets/img/slider/2.png)">
-                                                 <div class="slider_content">
-                                                    <div class="slider_content_inner">  
-                                                        <h1>Chào mừng đến với GOMENS</h1>
-                                                        <p>Gomen - nơi mà phong cách và thoải mái hòa quyện,<br>
-                                                        nơi bản thân trở thành một tuyên ngôn thời trang thể thao độc đáo."</p>
-                                                    
-                                                    </div>     
-                                                </div> 
-                                            </div>
-                                            <div class="single_slider" style="background-image: url(assets/img/slider/3.png)">
-                                                 <div class="slider_content">
-                                                    <div class="slider_content_inner">  
-                                                        <h1>Chào mừng đến với GOMENS</h1>
-                                                        <p>Gomen - nơi mà phong cách và thoải mái hòa quyện,<br>
-                                                        nơi bản thân trở thành một tuyên ngôn thời trang thể thao độc đáo."</p>
-                                                    </div>     
-                                                </div>
-                                            </div>
+                                            <div class="single_slider" style="background-image: url(assets/img/slider/1.png)"> </div>
+                                            <div class="single_slider" style="background-image: url(assets/img/slider/2.png)"></div>
+                                            <div class="single_slider" style="background-image: url(assets/img/slider/3.png)"> </div>
                                         </div>
                                     </div> 
                                     <!--banner slider start-->
@@ -52,7 +26,7 @@
                                     <div class="col-lg-4 col-md-6">
                                         <div class="single_blog">
                                             <div class="blog_thumb">
-                                                <a href="blog-details.html"><img src="assets\img\blog\blog9.jpg" alt=""></a>
+                                                <a href="blog-details.html"><img src="assets/img/blog/blog9.jpg" alt=""></a>
                                             </div>
                                             <div class="blog_content">
                                                 <h3>Chào mừng bạn đến với Gomens</h3>
@@ -60,12 +34,12 @@
                                                 <div class="post_footer">
                                                     <div class="post_meta">
                                                         <ul>
-                                                            <li>Jun 20, 2018</li>
+                                                            <li>November 17, 2023</li>
                                                             <li>3 Comments</li>
                                                         </ul>
                                                     </div>
                                                     <div class="Read_more">
-                                                        <a href="./view/blog/blog1.php">Xem ngay  <i class="fa fa-angle-double-right"></i></a>
+                                                        <a href="index.php?act=blog1">Xem ngay  <i class="fa fa-angle-double-right"></i></a>
                                                     </div> 
                                                 </div>
                                             </div>
@@ -82,12 +56,12 @@
                                                 <div class="post_footer">
                                                     <div class="post_meta">
                                                         <ul>
-                                                            <li>Jun 20, 2018</li>
+                                                            <li>November 18, 2023</li>
                                                             <li>3 Comments</li>
                                                         </ul>
                                                     </div>
                                                     <div class="Read_more">
-                                                        <a href="./view/blog/blog2.php">Xem ngay <i class="fa fa-angle-double-right"></i></a>
+                                                        <a href="index.php?act=blog2">Xem ngay <i class="fa fa-angle-double-right"></i></a>
                                                     </div> 
                                                 </div>
                                             </div>
@@ -104,12 +78,12 @@
                                                 <div class="post_footer">
                                                     <div class="post_meta">
                                                         <ul>
-                                                            <li>Jun 20, 2023</li>
+                                                            <li>November 19, 2023</li>
                                                             <li>2 Comments</li>
                                                         </ul>
                                                     </div>
                                                     <div class="Read_more">
-                                                        <a href="./view/blog/blog3.php">Xem ngay   <i class="fa fa-angle-double-right"></i></a>
+                                                        <a href="index.php?act=blog3">Xem ngay   <i class="fa fa-angle-double-right"></i></a>
                                                     </div> 
                                                 </div>
                                             </div>

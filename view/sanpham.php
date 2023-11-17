@@ -4,35 +4,9 @@
         <div class="col-12">
             <div class="banner_slider slider_two">
                 <div class="slider_active owl-carousel">
-                    <div class="single_slider" style="background-image: url(assets/img/slider/1.png)">
-                        <div class="slider_content">
-                            <div class="slider_content_inner">  
-                                <h1>Chào mừng đến với GOMENS</h1>
-                                <p>Gomen - nơi mà phong cách và thoải mái hòa quyện,<br>
-                                nơi bản thân trở thành một tuyên ngôn thời trang thể thao độc đáo."</p>
-                                
-                            </div>     
-                        </div>
-                    </div>
-                    <div class="single_slider" style="background-image: url(assets/img/slider/2.png)">
-                            <div class="slider_content">
-                            <div class="slider_content_inner">  
-                                <h1>Chào mừng đến với GOMENS</h1>
-                                <p>Gomen - nơi mà phong cách và thoải mái hòa quyện,<br>
-                                nơi bản thân trở thành một tuyên ngôn thời trang thể thao độc đáo."</p>
-                            
-                            </div>     
-                        </div> 
-                    </div>
-                    <div class="single_slider" style="background-image: url(assets/img/slider/3.png)">
-                            <div class="slider_content">
-                            <div class="slider_content_inner">  
-                                <h1>Chào mừng đến với GOMENS</h1>
-                                <p>Gomen - nơi mà phong cách và thoải mái hòa quyện,<br>
-                                nơi bản thân trở thành một tuyên ngôn thời trang thể thao độc đáo."</p>
-                            </div>     
-                        </div>
-                    </div>
+                    <div class="single_slider" style="background-image: url(assets/img/slider/1.png)"></div>
+                    <div class="single_slider" style="background-image: url(assets/img/slider/2.png)"></div> 
+                    <div class="single_slider" style="background-image: url(assets/img/slider/3.png)"></div>
                 </div>
             </div> 
             <!--banner slider start-->

@@ -498,9 +498,9 @@
 	position: relative;
 }
 .single_slider::before{
-    position: absolute;
+    /* position: absolute; */
     content: "";
-    background: #000;
+    background: #ccc;
     width: 100%;
     height: 100%;
     left:0;
@@ -819,12 +819,21 @@
 .product_content {
   text-align: center;
 }
-.product_content span {
-	color: #333333;
+.product_content .product_price {
+	color: red;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 7px 0;
+	display: block;
+}
+
+.product_content .product_original_price {
+	color: #333;
 	font-weight: bold;
 	font-size: 18px;
 	padding: 7px 0;
 	display: block;
+	text-decoration: line-through;
 }
 .product_content h3 a:hover{
     color: #e84c3d;

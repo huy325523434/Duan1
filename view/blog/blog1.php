@@ -1,6 +1,4 @@
-<?php
-include "./view/header.php";
-?>
+
 <div class="pos_page">
 
                 <div class="container">
@@ -36,29 +34,13 @@ include "./view/header.php";
                                                     <span>
                                                         <a href=""><h2>Chào mừng bạn đến với blog gomens</h2></a>
                                                     </span>
-                                                    <h2><a href="#">Gomens - Nơi Đắm Chìm Trong Thế Giới Thời Trang Đỉnh Cao
-                                                    </a></h2>
+                                                    <h2><a href="#">Gomens - Nơi Đắm Chìm Trong Thế Giới Thời Trang Đỉnh Cao</a></h2>
                                                     <div class="blog__post">
                                                         <ul>
                                                             <li class="post_author">Posts by : admin</li>
-                                                            <li class="post_date"> 	</li>
                                                         </ul>
                                                     </div>
-                                                </div>
-                                                <div class="blog_active owl-carousel">
-                                                   <div class="blog_thumb blog__hover">
-                                                        <a href="blog-details.html"><img src="../assets\img\blog\blog9.jpg" alt=""></a>
-                                                    </div>
-                                                    <div class="blog_thumb">
-                                                        <a href="blog-details.html"><img src="../assets\img\blog\blog7.jpg" alt=""></a>
-                                                    </div>
-                                                    <div class="blog_thumb">
-                                                        <a href="blog-details.html"><img src="../assets\img\blog\blog8.jpg" alt=""></a>
-                                                    </div>
-                                                    <div class="blog_thumb">
-                                                        <a href="blog-details.html"><img src="../assets\img\blog\blog7.jpg" alt=""></a>
-                                                    </div>
-                                                </div>   
+                                                </div> 
 
                                                 <div class="blog_entry_content">
                                                    <p>Chào mừng độc giả yêu thời trang đến với bài viết hôm nay! Hôm nay, chúng ta sẽ cùng nhau khám phá một trang web bán quần áo nổi bật mang tên "Gomens". Được biết đến với sự đa dạng, phong cách và chất lượng, Gomens chính là điểm đến lý tưởng cho những người yêu thời trang và muốn thể hiện phong cách cá nhân của mình.</p>
@@ -129,7 +111,5 @@ include "./view/header.php";
         </div>
     </div>
 </div>
-<?php
-include "footer.php";
-?>
+
 

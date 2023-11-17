@@ -106,9 +106,9 @@
                                                 <div class="main_menu d-none d-lg-block">
                                                     <nav>
                                                         <ul>
-                                                            <li class="active"><a href="index.html">Home</a></li>
-                                                            <li><a href="shop.html">Sản phẩm </a></li>
-                                                            <li><a href="#">Danh mục </a>
+                                                            <li class="active"><a href="index.php">Home</a></li>
+                                                            <li><a href="index.php?act=listsp">Sản phẩm </a></li>
+                                                            <li><a href="index.php?act=listdm">Danh mục </a>
                                                                 <div class="mega_menu">
                                                                     <div class="mega_top fix">
                                                                         <div class="mega_items">
@@ -119,10 +119,10 @@
                                                                     
                                                                 </div>
                                                             </li>
-                                                            <li><a href="#">Giới thiệu</a></li>
-                                                            <li><a href="">Blog</a> </li>
-                                                            <li><a href="#">Liên hệ</a></li>
-                                                            <li><a href="">Đăng nhập</a></li>
+                                                            <li><a href="index.php?act=gioithieu">Giới thiệu</a></li>
+                                                            <li><a href="index.php?act=blog">Blog</a> </li>
+                                                            <li><a href="index.php?act=lienhe">Liên hệ</a></li>
+                                                            <li><a href="index.php?act=login">Đăng nhập</a></li>
 
                                                         </ul>
                                                     </nav>

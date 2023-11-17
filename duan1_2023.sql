@@ -1,7 +1,6 @@
 CREATE TABLE `donhang` (
   `id_dh` integer PRIMARY KEY,
   `id_user` integer,
-  `id_sp` integer,
   `trangthai` varchar(255),
   `ngaydat` datetime
 );
@@ -22,7 +21,7 @@ CREATE TABLE `chitietdonhang` (
   `id_size` integer,
   `id_mau` integer,
   `id_img` integer,
-  `thanhtien` integer,
+  `thanhtien` varchar(255),
   `soluong` integer
 );
 
@@ -56,16 +55,7 @@ CREATE TABLE `sanpham` (
   `original_price` integer,
   `mota` text,
   `trangthai` integer,
-  `id_dm` integer,
-  `id_size` integer,
-  `id_mau` integer,
-  `id_img` integer,
-  `price` integer
-);
-
-CREATE TABLE `img` (
-  `id_img` integer PRIMARY KEY,
-  `name` varchar(255)
+  `id_dm` integer
 );
 
 CREATE TABLE `taikhoan` (
@@ -91,5 +81,9 @@ CREATE TABLE `mau` (
 CREATE TABLE `chitietsp` (
   `id_ctsp` integer PRIMARY KEY,
   `id_sp` integer,
+  `id_size` integer,
+  `id_mau` integer,
+  `id_img` integer,
+  `price` integer,
   `soluong` integer
 );

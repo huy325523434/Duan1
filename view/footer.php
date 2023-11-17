@@ -19,11 +19,11 @@
                                 <div class="footer_widget">
                                     <h3>TÀI KHOẢN CỦA TÔI</h3>
                                     <ul>
-                                        <li><a href="#">Your Account</a></li>
-                                        <li><a href="#">My orders</a></li>
-                                        <li><a href="#">My credit slips</a></li>
-                                        <li><a href="#">My addresses</a></li>
-                                        <li><a href="#">Login</a></li>
+                                        <li><a href="#">Tài khoản</a></li>
+                                        <li><a href="#">Đơn hàng</a></li>
+                                        <li><a href="#">Phiếu tín dụng</a></li>
+                                        <li><a href="#">Địa chỉ</a></li>
+                                        <li><a href="#">Đăng nhập</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -31,11 +31,11 @@
                                 <div class="footer_widget">
                                     <h3>THÔNG TIN</h3>
                                     <ul>
-                                        <li><a href="#">Specials</a></li>
-                                        <li><a href="#">Our store(s)!</a></li>
-                                        <li><a href="#">My credit slips</a></li>
-                                        <li><a href="#">Terms and conditions</a></li>
-                                        <li><a href="#">About us</a></li>
+                                        <li><a href="#">Khuyến mãi</a></li>
+                                        <li><a href="#">Cửa hàng của chúng tôi</a></li>
+                                        <li><a href="#">Phiếu tín dụng</a></li>
+                                        <li><a href="#">Tài khoản và điều kiện</a></li>
+                                        <li><a href="#">Về chúng tôi</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -43,11 +43,11 @@
                                 <div class="footer_widget">
                                     <h3>TÍNH NĂNG BỔ SUNG</h3>
                                     <ul>
-                                        <li><a href="#"> Brands</a></li>
-                                        <li><a href="#"> Gift Vouchers </a></li>
-                                        <li><a href="#"> Affiliates </a></li>
-                                        <li><a href="#"> Specials </a></li>
-                                        <li><a href="#"> Privacy policy </a></li>
+                                        <li><a href="#"> Nhãn hiệu</a></li>
+                                        <li><a href="#"> Phiếu quà tặng</a></li>
+                                        <li><a href="#"> Chi nhánh </a></li>
+                                        <li><a href="#"> Khuyến mãi </a></li>
+                                        <li><a href="#"> Chính sách bảo mật</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -61,8 +61,8 @@
                                 <div class="copyright_area">
                                     <ul>
                                         <li><a href="#"> VỀ CHÚNG TÔI</a></li>
-                                        <li><a href="#">  Customer Service  </a></li>
-                                        <li><a href="#">  Privacy Policy  </a></li>
+                                        <li><a href="#">  Dịch vụ khách hàng  </a></li>
+                                        <li><a href="#"> Chính sách bảo mật </a></li>
                                     </ul>
                                     <p>Copyright &copy; 2023 <a href="#">Gomens</a>. All rights reserved. </p>
                                 </div>

@@ -1,6 +1,4 @@
-<?php
-include "./view/header.php";
-?>
+
 <div class="pos_page">
 
                 <div class="container">
@@ -36,27 +34,26 @@ include "./view/header.php";
                                                     <span>
                                                         <a href=""><h2>Chào mừng bạn đến với blog gomens</h2></a>
                                                     </span>
-                                                    <h2><a href="#">Gomens - Nơi Đắm Chìm Trong Thế Giới Thời Trang Đỉnh Cao
+                                                    <h2><a href="index.php">Gomens - Nơi Đắm Chìm Trong Thế Giới Thời Trang Đỉnh Cao
                                                     </a></h2>
                                                     <div class="blog__post">
                                                         <ul>
                                                             <li class="post_author">Posts by : admin</li>
-                                                            <li class="post_date"> 	</li>
                                                         </ul>
                                                     </div>
                                                 </div>
                                                 <div class="blog_active owl-carousel">
                                                    <div class="blog_thumb blog__hover">
-                                                        <a href="blog-details.html"><img src="../assets\img\blog\blog9.jpg" alt=""></a>
+                                                        <a href="index.php?act=blog3"><img src="assets/img/blog/blog9.jpg" alt=""></a>
                                                     </div>
                                                     <div class="blog_thumb">
-                                                        <a href="blog-details.html"><img src="../assets\img\blog\blog7.jpg" alt=""></a>
+                                                        <a href="index.php?act=blog3"><img src="assets/img/blog/blog7.jpg" alt=""></a>
                                                     </div>
                                                     <div class="blog_thumb">
-                                                        <a href="blog-details.html"><img src="../assets\img\blog\blog8.jpg" alt=""></a>
+                                                        <a href="index.php?act=blog3"><img src="assets/img/blog/blog8.jpg" alt=""></a>
                                                     </div>
                                                     <div class="blog_thumb">
-                                                        <a href="blog-details.html"><img src="../assets\img\blog\blog7.jpg" alt=""></a>
+                                                        <a href="index.php?act=blog3"><img src="assets/img/blog/blog7.jpg" alt=""></a>
                                                     </div>
                                                 </div>   
 
@@ -129,7 +126,4 @@ include "./view/header.php";
         </div>
     </div>
 </div>
-<?php
-include "footer.php";
-?>
 
