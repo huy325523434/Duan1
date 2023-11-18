@@ -1,10 +1,10 @@
         <!-- CONTENT -->
         <div class="row2">
             <div class="row2 font_title">
-                <h1>DANH SÁCH LOẠI HÀNG HÓA</h1>
+                <h1>DANH SÁCH DANH MỤC HÀNG HÓA </h1>
             </div>
             <div class="row2 form_content ">
-                <form action="#" method="POST">
+                <form action="index.php?act=listdm" method="POST">
                     <div class="row2 mb10 formds_loai">
                         <table>
                             <tr>

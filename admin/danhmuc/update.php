@@ -19,7 +19,7 @@ if (is_array($dm)) {
                 <input type="text" name="tenloai" value="<?php if (isset($name) && ($name != "")) echo $name; ?>">
             </div>
             <div class="row mb10 ">
-                <input type="hidden" name="id" value="<?php if (isset($id) && ($id > 0)) echo $id; ?>">
+                <input type="hidden" name="id_dm" value="<?php if (isset($id) && ($id > 0)) echo $id; ?>">
                 <input class="mr20" name="capnhat" type="submit" value="CẬP NHẬT">
                 <input class="mr20" type="reset" value="NHẬP LẠI">
                 <a href="index.php?act=lisdm"><input class="mr20" type="button" value="DANH SÁCH"></a>

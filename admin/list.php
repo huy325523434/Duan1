@@ -1,3 +1,5 @@
+           
+           
            <!--breadcrumbs area start-->
            <div class="breadcrumbs_area">
                             <div class="row">
@@ -14,7 +16,6 @@
                             </div>
                         </div>
                         <!--breadcrumbs area end-->
-
                         <!-- Start Maincontent  -->
                         <div class="container mt-3">
                             <h2>DANH SÁCH LOẠI SẢN PHẨM</h2>

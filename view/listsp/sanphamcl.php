@@ -10,9 +10,8 @@
                             </div>
                             <div class="row">
                                 <div class="single_p_active owl-carousel">
-                                    <?php 
+                                    <?php
                                         foreach ($sanphamcl as $value) {
-
                                             $i = 0;
                                             foreach ($spnew as $sp){
                                                 extract($sp);

@@ -27,7 +27,7 @@
                            </div>
                            <div class="row2 mb10">
                                <label>Tên loại </label>
-                               <input type="text" name="tenloai" placeholder="Nhập vào họ tên">
+                               <input type="text" name="tenloai" placeholder="Nhập vào họ tên" required>
                            </div>
                            <div class="row mb10 ">
                                <input class="mr20" type="submit" value="THÊM MỚI">
