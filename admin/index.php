@@ -88,7 +88,7 @@
                     break;
                 case "updatesp" :
                     if(isset($_POST["capnhat"]) && ($_POST["capnhat"])){
-                        $iddm = $_POST["iddm"];
+                        $iddm = $_POST["id_dm"];
                         $id = $_POST["id"];
                         $tensp = $_POST["tensp"];
                         $giasp = $_POST["giasp"];

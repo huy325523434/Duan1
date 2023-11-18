@@ -11,7 +11,7 @@
         <form action="index.php?act=adddm" method="POST" enctype="multipart/form-data">
             <div class="row2 mb10 form_content_container">
                 <label> Mã loại</label>
-                <input type="text" name="maloai"    >
+                <input type="text" name="maloai"   disabled >
             </div>
             <div class="row2 mb10">
                 <label> Tên loại</label>

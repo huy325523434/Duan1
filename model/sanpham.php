@@ -33,3 +33,22 @@ function loadall_sanpham_home(){
     $listsanpham = pdo_query($sql);
     return $listsanpham;
 }
+function insert_sanpham($tensp, $giasp, $hinh, $mota, $iddm){
+    $sql = "INSERT INTO `sanpham`(`name`, `price`, `img`, `mota`, `iddm`) VALUES ('$tensp', '$giasp', '$hinh', '$mota', '$iddm')";
+    pdo_execute($sql);
+}
+
+function update_sanpham($id, $iddm, $tensp, $giasp, $mota, $hinh){
+    if($hinh != ""){
+        $sql = "UPDATE `sanpham` SET `name` = '{$tensp}', `price` = '{$giasp}', `mota` = '{$mota}', `img` = '{$hinh}', `iddm` = '{$iddm}' WHERE `sanpham` . `id` = $id ";
+    }else{
+        $sql = "UPDATE `sanpham` SET `name` = '{$tensp}', `price` = '{$giasp}', `mota` = '{$mota}', `iddm` = '{$iddm}' WHERE `sanpham` . `id` = $id ";
+   }
+   pdo_execute($sql);
+}
+
+// Xoá sản phẩm
+function hard_delele($id){
+    $sql = "DELETE FROM sanpham WHERE id = " . $id;
+    pdo_execute($sql);
+}
