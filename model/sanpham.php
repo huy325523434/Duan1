@@ -14,22 +14,22 @@ function loadall_sanpham($keyw = "", $id_dm = 0)
     return $listsanpham;
 }
 
-function loadone_sanpham($id_sp)
+function loadone_sanpham($id)
 {
-    $sql = "SELECT * FROM sanpham WHERE id_sp = $id_sp";
+    $sql = "SELECT * FROM sanpham WHERE id = $id";
     $result = pdo_query_one($sql);
     return $result;
 }
 
-function load_sanpham_cungloai($id_sp, $id_dm)
+function load_sanpham_cungloai($id, $id_dm)
 {
-    $sql = "SELECT * FROM sanpham WHERE id_dm = $id_dm AND id_sp <> $id_sp";
+    $sql = "SELECT * FROM sanpham WHERE id_dm = $id AND id <> $id";
     $result = pdo_query($sql);
     return $result;
 }
 
 function loadall_sanpham_home(){
-    $sql = "SELECT * FROM sanpham WHERE 1 order by id_sp DESC";
+    $sql = "SELECT * FROM sanpham WHERE 1 order by id DESC";
     $listsanpham = pdo_query($sql);
     return $listsanpham;
 }

@@ -13,11 +13,11 @@
                                 </div>    
                             </div>  
                             <!--new product area start-->
-                            <?php  include "newsp.php"; ?>
+                            <?php  include "listsp/newsp.php"; ?>
                             <!--new product area start--> 
                                                           
                             <!--featured product area start-->
-                            <?php include "spnoibat.php"; ?>
+                            <?php include "listsp/spnoibat.php"; ?>
                             <!--featured product area start-->   
                                    
                             <!--blog area start-->

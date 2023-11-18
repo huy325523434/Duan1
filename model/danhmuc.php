@@ -1,8 +1,8 @@
 <?php 
    
-function load_ten_dm($id_dm){
-    if($id_dm > 0){
-        $sql = "SELECT * FROM danhmuc WHERE id_dm = $id_dm";
+function load_ten_dm($id){
+    if($id > 0){
+        $sql = "SELECT * FROM danhmuc WHERE id = $id";
         $dm = pdo_query_one($sql);
         extract($dm);
         return $name;
@@ -12,7 +12,7 @@ function load_ten_dm($id_dm){
 }
 
 function loadall_danhmuc(){
-    $sql = "SELECT * FROM danhmuc ORDER BY id_dm DESC";
+    $sql = "SELECT * FROM danhmuc ORDER BY id DESC";
     $listdanhmuc=pdo_query($sql);
     return  $listdanhmuc;
 }

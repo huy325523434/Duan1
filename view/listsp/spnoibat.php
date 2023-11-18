@@ -15,13 +15,8 @@
                                         foreach ($spnew as $sp){
                                             extract($sp);
                                             $hinh = $img_path . $img;
-                                            $link = "index.php?act=sanphamct&id_sp=$id_sp";
-                                            $link_mua = "index.php?act=muangay&id_sp=$id_sp";
-                                            // if (($i == 1)) {
-                                            //     $mr = "";
-                                            // } else {
-                                            //     $mr = "mr";
-                                            // }
+                                            $link = "index.php?act=sanphamct&id=$id";
+                                            $link_mua = "index.php?act=muangay&id=$id";
                                             echo '<div class="col-lg-3">
                                             <div class="single_product">
                                                 <div class="product_thumb">
@@ -29,6 +24,9 @@
                                                    <div class="hot_img">
                                                        <img src="assets\img\cart\span-hot.png" alt="">
                                                    </div>
+                                                   <div class="product_action">
+                                                        <a href="'.$link_mua.'"> <i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                                    </div>
                                                    
                                                 </div>
                                                 <div class="product_content">

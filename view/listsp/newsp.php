@@ -14,8 +14,7 @@
                             foreach ($spnew as $sp){
                                 extract($sp);
                                 $hinh = $img_path . $img;
-                                $link = "index.php?act=sanphamct&id_sp=$id_sp";
-                                $link_mua = "index.php?act=muangay&id_sp=$id_sp";
+                                $link = "index.php?act=sanphamct&id=$id";
                                     echo '<div class="col-lg-3">
                                     <div class="single_product">
                                         <div class="product_thumb">
@@ -24,7 +23,13 @@
                                                 <img src="assets\img\cart\span-new.png" alt="">
                                             </div>
                                             <div class="product_action">
-                                                <a href="'.$link_mua.'"> <i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                                <form action="index.php?act=addtocart" method="post">
+                                                    <input type="hidden" name="id" value="'.$id.'">
+                                                    <input type="hidden" name="name" value="'.$name.'">
+                                                    <input type="hidden" name="img" value="'.$img.'">
+                                                    <input type="hidden" name="price" value="'.$price.'">
+                                                    <input type="submit" name="addtocart" value="Add to cart" style="background-color: #00bba6; border: 1px solid #00bba6; color: aliceblue;">
+                                                </form> 
                                             </div>
                                         </div>
                                         <div class="product_content">
@@ -34,15 +39,18 @@
                                         </div>
                                         <div class="product_info">
                                             <ul>
-                                                <li><a href="#" title=" Add to Wishlist ">Thêm vào giỏ hàng</a></li>
-                                                <li><a href="'.$link.'" data-toggle="modal" data-target="#modal_box" title="Quick view">Mua ngay</a></li>
+                                                <li><a href="'.$link.'" title=" Add to Wishlist ">Xem chi tiết</a></li>
+                                                <li><a href="" data-toggle="modal" data-target="#modal_box" title="Quick view">Mua ngay</a></li>
                                             </ul>
                                         </div>
+                                       
+
                                     </div>
                                 </div>';
 
                                 }
                                 ?>
+                                
                           
                           <!-- <div class="col-lg-3">
                               <div class="single_product">
