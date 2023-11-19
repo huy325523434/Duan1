@@ -43,6 +43,10 @@ if (is_file($hinhpath)) {
                 <input type="text" name="tensp" value="<?php echo $name ?>">
             </div>
             <div class="row2 mb10">
+                <label>Giá gốc </label>
+                <input type="text" name="giasp" value="<?php echo $original_price ?>">
+            </div>
+            <div class="row2 mb10">
                 <label>Giá sản phẩm</label>
                 <input type="text" name="giasp" value="<?php echo $price ?>">
             </div>

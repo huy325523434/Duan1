@@ -6,7 +6,7 @@
     if (isset($_GET['act']) && ($_GET['act'] != "")) {
         $act = $_GET['act'];
         switch ($act) {
-    
+
             case "adddm":
                 // Kiểm tra xem người dùng có click vào nút add hay không
                 if(isset($_POST["themmoi"]) && ($_POST["themmoi"])){
@@ -62,6 +62,7 @@
                     if(isset($_POST["themmoi"]) && ($_POST["themmoi"])){
                         $iddm = $_POST["iddm"];
                         $tensp = $_POST["tensp"];
+                        $original_price=$_POST["original_price"];
                         $giasp = $_POST["giasp"];
                         $mota = $_POST["mota"];
                         $hinh = $_FILES["hinh"]["name"];
@@ -72,7 +73,7 @@
                         }else{ 
                             // echo "Upload ảnh không thành công";
                         }
-                        insert_sanpham($tensp, $giasp, $hinh, $mota, $iddm);
+                        insert_sanpham($tensp, $original_price,	 $giasp, $hinh, $mota, $iddm);
                         $thanhcong = "Thêm thành công";
                     }
                     $listdanhmuc = loadall_danhmuc();
@@ -91,6 +92,7 @@
                         $iddm = $_POST["id_dm"];
                         $id = $_POST["id"];
                         $tensp = $_POST["tensp"];
+                        $original_price=$_POST["original_price"];
                         $giasp = $_POST["giasp"];
                         $mota = $_POST["mota"];
                         $hinh = $_FILES["hinh"]["name"];
@@ -101,7 +103,7 @@
                         }else{
                             echo "Lỗi cập nhật";
                         }
-                        update_sanpham($id, $iddm, $tensp, $giasp, $mota, $hinh);
+                        update_sanpham($id, $iddm,$original_price, $tensp, $giasp, $mota, $hinh);
                         $thongbao = "Cập nhật thành công";
                     }
                     $listdanhmuc = loadall_danhmuc();

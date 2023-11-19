@@ -60,6 +60,7 @@
                                 <td><input type="checkbox" name="" id=""></td>
                                 <td>' . $id . '</td>
                                 <td>' . $name . '</td>
+                                <td>' . $original_price . '</td>
                                 <td>' . $price . '</td>
                                 <td>' . $hinhpath . '</td>
                                 <td>' . $luotxem . '</td>

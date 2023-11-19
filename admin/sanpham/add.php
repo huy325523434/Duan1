@@ -29,6 +29,10 @@
                 <input type="text" name="tensp" placeholder="Nhập vào tên sản phẩm" required>
             </div>
             <div class="row2 mb10">
+                <label>Giá cũ sản phẩm</label>
+                <input type="text" name="original_price" placeholder="Nhập vào giá sản phẩm" required>
+            </div>
+            <div class="row2 mb10">
                 <label>Giá sản phẩm</label>
                 <input type="text" name="giasp" placeholder="Nhập vào giá sản phẩm" required>
             </div>
