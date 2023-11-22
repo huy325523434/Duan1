@@ -16,9 +16,9 @@
 </style>
 
 <!-- CONTENT -->
-<div class="row2">
+<div class="row2" style="text-align: center;">
     <div class="row2 font_title">
-        <h1>DANH SÁCH LOẠI HÀNG HÓA</h1>
+        <h1>DANH SÁCH HÀNG HÓA</h1>
     </div>
     <div class="row2 form_content ">
         <form action="#" method="POST">
@@ -38,12 +38,12 @@
                 </div>
                 <table>
                     <tr>
-                        <th class="th"></th>
-                        <th class="th">MÃ <br> SẢN PHẨM</th>
-                        <th class="th">TÊN <br> SẢN PHẨM</th>
+                       
+                        <th class="th">MÃ SẢN PHẨM</th>
+                        <th class="th">TÊN SẢN PHẨM</th>
                         <th class="th">GIÁ</th>
                         <th class="th">HÌNH</th>
-                        <th class="th">LƯỢT XEM</th>
+                        <th class="th">TRẠNG THÁI </th>
                         <th class="th">CHỨC NĂNG</th>
                     </tr>
                     <?php foreach ($listsanpham as $sanpham) {
@@ -57,13 +57,15 @@
                             $hinhpath = "No file image!";
                         }
                         echo '<tr> 
-                                <td><input type="checkbox" name="" id=""></td>
+                       
                                 <td>' . $id . '</td>
                                 <td>' . $name . '</td>
                                 <td>' . $original_price . '</td>
                                 <td>' . $price . '</td>
                                 <td>' . $hinhpath . '</td>
-                                <td>' . $luotxem . '</td>
+                                <td>' . $trangthai . '</td>
+                                
+
                                 <td>
                                     <a href="' . $suasp . '"><input type="button" value="Sửa"></a>
                                     <a href="' . $xoasp . '"><input type="button" value="Xóa" onclick="return confirm(\'Bạn có chắc chắn muốn xoá không\')"></a>
@@ -72,8 +74,8 @@
                     } ?>
                 </table>
             </div>
-            <div class="row mb10 ">
-                <input class="mr20" type="button" value="CHỌN TẤT CẢ">
+            <div class="row mb10 "  style="margin-left: 20px ">
+                <input  type="button" value="CHỌN TẤT CẢ">
                 <input class="mr20" type="button" value="BỎ CHỌN TẤT CẢ">
                 <input class="mr20" type="button" value="XOÁ CÁC MỤC ĐÃ CHỌN">
                 <a href="index.php?act=addsp"> <input class="mr20" type="button" value="NHẬP THÊM"></a>

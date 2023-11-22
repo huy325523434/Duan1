@@ -17,7 +17,7 @@
                 <label> Tên loại</label>
                 <input type="text" name="tenloai" required>
             </div>
-            <div class="row mb10 ">
+            <div class="row mb10 " style="margin-left: 20px ">
                 <input class="mr20" name="themmoi" type="submit" value="THÊM MỚI">
                 <input class="mr20" type="reset" value="NHẬP LẠI">
                 <a href="index.php?act=listdm" ><input class="mr20" type="button" value="DANH SÁCH"></a>

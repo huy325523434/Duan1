@@ -6,9 +6,9 @@
     <div class="row2 form_content ">
         <form action="#" method="POST">
             <div class="row2 mb10 formds_loai">
-                <table>
+                <table border="1px">
                     <tr>
-                        <th class="th"></th>
+                       
                         <th class="th">MÃ TÀI KHOẢN</th>
                         <th class="th">TÊN ĐĂNG NHẬP</th>
                         <th class="th">MẬT KHẨU</th>
@@ -24,7 +24,7 @@
                         $suatk = "index.php?act=suatk&id=" . $id;
                         $xoatk = "index.php?act=xoatk&id=" . $id;
                         echo '<tr>
-                                        <td><input type="checkbox" name="" id=""></td>
+                                        
                                         <td>' . $id . '</td>
                                         <td>' . $user . '</td>
                                         <td>' . $pass . '</td>
@@ -41,7 +41,7 @@
                     ?>
                 </table>
             </div>
-            <div class="row mb10 ">
+            <div class="row mb10 "   style="margin-left: 20px ">
                 <input class="mr20" type="button" value="CHỌN TẤT CẢ">
                 <input class="mr20" type="button" value="BỎ CHỌN TẤT CẢ">
                 <input class="mr20" type="button" value="XOÁ CÁC MỤC ĐÃ CHỌN">

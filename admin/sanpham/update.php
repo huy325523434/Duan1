@@ -44,7 +44,7 @@ if (is_file($hinhpath)) {
             </div>
             <div class="row2 mb10">
                 <label>Giá gốc </label>
-                <input type="text" name="giasp" value="<?php echo $original_price ?>">
+                <input type="text" name="original_price" value="<?php echo $original_price ?>">
             </div>
             <div class="row2 mb10">
                 <label>Giá sản phẩm</label>
@@ -56,10 +56,14 @@ if (is_file($hinhpath)) {
                 <?php echo $hinhpath ?>
             </div>
             <div class="row2 mb10">
+                <label>Trạng thái </label>
+                <input type="text" name="trangthai" value="<?php echo $trangthai ?>" required>
+            </div>
+            <div class="row2 mb10">
                 <label>Mô tả</label>
                 <textarea rows="10" cols="100" name="mota" value="<?php echo $mota ?>"></textarea>
             </div>
-            <div class="row mb10 ">
+            <div class="row mb10 " style="margin-left: 20px ">
                 <input type="hidden" name="id" value="<?php echo $id ?>">
                 <input class="mr20" name="capnhat" type="submit" value="CẬP NHẬT">
                 <input class="mr20" type="reset" value="NHẬP LẠI">

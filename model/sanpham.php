@@ -33,19 +33,20 @@ function loadall_sanpham_home(){
     $listsanpham = pdo_query($sql);
     return $listsanpham;
 }
-function insert_sanpham($tensp,$original_price,	 $giasp, $hinh, $mota, $iddm){
-    $sql = "INSERT INTO `sanpham`(`name`,`original_price`,`price`, `img`, `mota`, `id_dm`) VALUES ('$tensp','$original_price', '$giasp', '$hinh', '$mota', '$iddm')";
+function insert_sanpham($tensp,$original_price,	 $giasp, $hinh,$trangthai, $mota, $iddm){
+    $sql = "INSERT INTO sanpham(name,original_price,price, img,trangthai, mota, id_dm) VALUES ('$tensp','$original_price', '$giasp', '$hinh','$trangthai', '$mota', '$iddm')";
     pdo_execute($sql);
 }
 
-function update_sanpham($id, $iddm, $tensp,$original_price, $giasp, $mota, $hinh){
+function update_sanpham($id, $iddm, $tensp,$original_price, $giasp, $mota, $hinh,$trangthai){
     if($hinh != ""){
-        $sql = "UPDATE `sanpham` SET `name` = '{$tensp}',`original_price`={$original_price} `price` = '{$giasp}', `mota` = '{$mota}', `img` = '{$hinh}', `iddm` = '{$iddm}' WHERE `sanpham` . `id` = $id ";
+        $sql = "UPDATE sanpham SET name = '".$tensp."',original_price='".$original_price."', price ='".$giasp."', mota ='".$mota."', img ='".$hinh."',trangthai ='".$trangthai."', id_dm ='".$iddm."'  WHERE  id =  '".$id."'";
     }else{
-        $sql = "UPDATE `sanpham` SET `name` = '{$tensp}', `price` = '{$giasp}', `mota` = '{$mota}', `iddm` = '{$iddm}' WHERE `sanpham` . `id` = $id ";
+        $sql = "UPDATE sanpham SET name = '".$tensp."',original_price='".$original_price."', price ='".$giasp."', mota ='".$mota."', trangthai ='".$trangthai."', id_dm = '".$iddm."' WHERE id =  '".$id."'";
    }
    pdo_execute($sql);
 }
+
 
 // Xoá sản phẩm
 function hard_delele($id){

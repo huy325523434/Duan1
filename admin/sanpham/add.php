@@ -41,10 +41,15 @@
                 <input type="file" name="hinh">
             </div>
             <div class="row2 mb10">
-                <label>Mô tả</label>
-                <textarea rows="10" cols="100" name="mota"></textarea>
+                <label>Trạng thái </label>
+                <input type="text" name="trangthai"  required>
             </div>
-            <div class="row mb10 ">
+            <div class="row2 mb10">
+                <label>Mô tả</label>
+                <textarea rows="10" cols="100" name="mota" required></textarea>
+            </div>
+           
+            <div class="row mb10 "  style="margin-left: 20px ">
                 <input class="mr20" name="themmoi" type="submit" value="THÊM MỚI">
                 <input class="mr20" type="reset" value="NHẬP LẠI">
                 <a href="index.php?act=listsp"><input class="mr20" type="button" value="DANH SÁCH"></a>

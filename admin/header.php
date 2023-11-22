@@ -1,3 +1,15 @@
+ <!-- <style>
+    input {
+   
+    height: 45px;
+    text-align: center;
+    box-shadow: none;
+    padding-left: 50px;
+    font-size: 14px;
+   
+   
+} -->
+ </style>
 <!doctype html>
 <html class="no-js" lang="zxx">
     <head>
@@ -12,7 +24,7 @@
 		<!-- all css here -->
        <link rel="stylesheet" href="../assets\css\bootstrap.min.css">
         <link rel="stylesheet" href="../assets\css\plugin.css">
-        <link rel="stylesheet" href="../assets\css\bundle.css">
+        <!-- <link rel="stylesheet" href="../assets\css\bundle.css"> -->
         <link rel="stylesheet" href="../assets\css\style.css">
         <link rel="stylesheet" href="../assets\css\responsive.css">
         <script src="assets\js\vendor\modernizr-2.8.3.min.js"></script>
@@ -50,7 +62,7 @@
                                             <div class="main_menu_inner">
                                                 <div class="main_menu d-none d-lg-block">
                                                     <nav>
-                                                        <ul>
+                                                        <ul style="list-style: none;">
                                                             <li class="active"><a href="index.php">Home</a></li>
                                                            
                                                             <li><a href="index.php?act=adddm">Danh mục </a></li>

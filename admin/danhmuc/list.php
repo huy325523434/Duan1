@@ -31,7 +31,7 @@
                             ?>
                         </table>
                     </div>
-                    <div class="row mb10 ">
+                    <div class="row mb10 " style="margin-left: 20px ">
                         <input class="mr20" type="button" value="CHỌN TẤT CẢ">
                         <input class="mr20" type="button" value="BỎ CHỌN TẤT CẢ">
                         <input class="mr20" type="button" value="XOÁ CÁC MỤC ĐÃ CHỌN">
